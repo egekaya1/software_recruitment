@@ -9,16 +9,16 @@ The high-level code controlling our robot is primarily written in Python and uti
 ## What is ROS2?
 
 If you're unfamiliar with ROS2, you can learn more about it from the following links:
-1. [How to install ROS2 on Ubuntu 22.04](https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html)
-2. [Basic Concepts](https://docs.ros.org/en/iron/Concepts/Basic.html): focus only on Nodes and Topics
-3. [Using colcon to build packages](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html)
-4. [Creating a workspace](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
-5. [Creating a package](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
-6. [Writing a simple publisher and subscriber (Python)](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
+1. [How to install ROS2 on Ubuntu 24.04](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html)
+2. [Basic Concepts](https://docs.ros.org/en/jazzy/Concepts/Basic.html): focus only on Nodes and Topics
+3. [Using colcon to build packages](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html)
+4. [Creating a workspace](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
+5. [Creating a package](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
+6. [Writing a simple publisher and subscriber (Python)](https://docs.ros.org/en/jazzy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
 
-While other setups are possible, we highly recommend installing ROS2 on Ubuntu Jammy (22.04). If Ubuntu Jammy isn't your main operating system, you can install it on WSL, a virtual machine or any other environment you're comfortable with.
+While other setups are possible, we highly recommend installing ROS2 on Ubuntu Noble (24.04). If Ubuntu Noble isn't your main operating system, you can install it on WSL, a virtual machine or any other environment you're comfortable with.
 
-ROS2 comes in various distributions, known as [distributions](https://docs.ros.org/en/iron/Releases.html). Currently, our robot runs on the [Humble distribution](https://docs.ros.org/en/iron/Releases/Release-Humble-Hawksbill.html), but you can also use [Iron](https://docs.ros.org/en/iron/Releases/Release-Iron-Irwini.html) as they are mostly the same for the scope of this challenge. All links provided in this document refer to `Iron`, but you can easily select another version from the menu in the bottom-left corner of the documentation.
+ROS2 comes in various distributions, known as [distributions](https://docs.ros.org/en/jazzy/Releases.html). Currently, our robot runs on the [Humble distribution](https://docs.ros.org/en/jazzy/Releases/Release-Humble-Hawksbill.html), but you can also use [Jazzy](https://docs.ros.org/en/jazzy/Releases/Release-Jazzy-Jalisco.html) as they are mostly the same for the scope of this challenge. All links provided in this document refer to `Jazzy`, but you can easily select another version from the menu in the bottom-left corner of the documentation.
 
 ## Task Description
 
@@ -44,7 +44,7 @@ Feel free to add any additional attributes and methods as needed and import any 
 
 ### Second task: writing a Launch File
 
-To facilitate the configuration and execution of multiple ROS2 nodes, launch files are used. Learn more about them [here](https://docs.ros.org/en/iron/Concepts/Basic/About-Launch.html) and [here](https://docs.ros.org/en/iron/Tutorials/Intermediate/Launch/Creating-Launch-Files.html#ros2-launch).
+To facilitate the configuration and execution of multiple ROS2 nodes, launch files are used. Learn more about them [here](https://docs.ros.org/en/jazzy/Concepts/Basic/About-Launch.html) and [here](https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html#ros2-launch).
 
 Your second task is to implement such a launch file that starts both nodes (`TemperatureLogger` and `TemperatureSensor`) in the `reseq` package. Ensure to place the launch file in the correct folder.
 
