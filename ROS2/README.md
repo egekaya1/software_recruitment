@@ -38,6 +38,8 @@ class TemperatureLogger {
 }
 ```
 
+The aforementioned class should log the temperatures both to the console and to the file passed during initialization
+
 Feel free to add any additional attributes and methods as needed and import any required Python packages.
 
 ### Second task: writing a Launch File
